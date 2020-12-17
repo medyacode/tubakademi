@@ -1,0 +1,55 @@
+// Import Global/index scss
+@import './global/index';
+
+@import '../theme/space/vendor/hs-megamenu/src/hs.megamenu.css';
+@import '../theme/space/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css';
+@import '../theme/space/vendor/custombox/dist/custombox.min.css';
+@import '../theme/space/vendor/animate.css/animate.min.css';
+@import '../theme/space/vendor/cubeportfolio/css/cubeportfolio.min.css';
+@import '../theme/space/vendor/slick-carousel/slick/slick.css';
+@import '../theme/space/vendor/fancybox/jquery.fancybox.css';
+@import '../theme/space/css/theme.css';
+
+
+// Import vendor scss
+// @import './vendor/bootstrap-custom';
+// @import './vendor/sass-css3-mixins';
+// @import './vendor/owl-carousel';
+@import './vendor/font-awesome';
+@import './vendor/international-telephone-input';
+// @import './vendor/slidePanel';
+// @import './vendor/magnafic-popup';
+// @import './vendor/bootstrap-star-rating';
+// @import './vendor/dropify';
+// @import './vendor/datatable';
+@import './vendor/sweet-alert2';
+
+// Import Fonts scss
+ @import './fonts/roboto';
+
+// Import Plugins scss
+// @import './plugins/owl-carousel';
+// @import './plugins/slidePanel';
+
+// Import Components scss
+// @import './components/bootstrap/dropdown-menu';
+// @import './components/bootstrap/badge';
+// @import './components/bootstrap/buttons';
+// @import './components/bootstrap/pagination';
+// @import './components/header';
+// @import './components/nav';
+// @import './components/footer';
+// @import './components/page-header';
+// @import './components/tabs';
+// @import './components/card';
+// @import './components/avatar';
+// @import './components/comments';
+// @import './components/accordion';
+@import './components/footer-action';
+
+// Import Pages scss
+@import './pages/backpage';
+
+.page{
+    overflow: hidden;
+}
