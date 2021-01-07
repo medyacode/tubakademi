@@ -638,10 +638,13 @@ li.acctount-btn, .toplinks .btn.btn-secondary {
 	padding: 0 5px;
 }
 .main-header .logo-navbar {
-	padding: 25px 0;
+	padding: 10px 0;
 }
 .logo {
 	padding: 0px;
+}
+.main-header .logo-navbar .logo img {
+	height: 60px;
 }
 .logo-navbar .navbar {
 	display: block;
@@ -651,6 +654,10 @@ li.acctount-btn, .toplinks .btn.btn-secondary {
 	height: 40px;
 	color: #fff;
 	float: right;
+}
+.about-widget img {
+    height: 70px;
+    width: auto;
 }
 .slider-tabs {
 	display: none;
